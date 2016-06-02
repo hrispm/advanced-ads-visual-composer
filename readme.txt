@@ -32,6 +32,8 @@ After activating this plugin, as well as Visual Composer and Advanced Ads, you s
 
 Each of them corresponds to the according element in Advanced Ads. You only need to enter the ids/slug of that element to show it in Visual Composer.
 
+All elements are also grouped into the _Ads_ tab.
+
 **Where to find the IDs?**
 
 Ads: Open the ad edit screen and stop the Wizard, if active. You should now see the Ad Id below the ad title.
