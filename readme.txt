@@ -11,7 +11,7 @@ Manage ads in your Visual Composer interface.
 
 == Description ==
 
-This plugin combines the Visual Composer and [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) plugin.
+This plugin combines the Visual Composer by WPBakery and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with VC.
 
 **Ad Management Features**
 
