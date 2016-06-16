@@ -34,11 +34,17 @@ Each of them corresponds to the according element in Advanced Ads. You only need
 
 All elements are also grouped into the _Ads_ tab.
 
+[Detailed Instructions with Images](https://wpadvancedads.com/visual-composer-ads/)
+
 **Where to find the IDs?**
 
 Ads: Open the ad edit screen and stop the Wizard, if active. You should now see the Ad Id below the ad title.
 Groups: The Group ID is listed in the Details column of the ad group list.
 Placement: Create a _Manual_ placement. Open the list of placements and click on _show usage_ below the placement’s name. Extract the ID from the id attribute in the shortcode field
+
+== Screenshots ==
+
+1. New Ad elements added to the Ad group in Visual Composer
 
 == Changelog ==
 
