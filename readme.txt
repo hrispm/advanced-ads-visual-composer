@@ -48,6 +48,10 @@ Placement: Create a _Manual_ placement. Open the list of placements and click on
 
 == Changelog ==
 
+= 1.0.1 =
+
+* fixed a bug when only VC Ads is enabled, but not Visual Composer itself
+
 = 1.0 =
 
 * first version

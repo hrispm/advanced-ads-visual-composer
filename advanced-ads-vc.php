@@ -47,7 +47,7 @@ class Advanced_Ads_Visual_Composer
     
     public function add_arguments(){
 	
-	if (!defined('ADVADS_BASE')) {
+	if (!defined('ADVADS_BASE') || !defined('WPB_VC_VERSION')) {
 	    return;
 	}
 	
