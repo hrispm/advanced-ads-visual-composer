@@ -6,7 +6,7 @@
  * Version:           1.0
  * Author:            Thomas Maier, Hans-Lukas Herse
  * Author URI:        http://webgilde.com
- * Text Domain:       advanced-ads-vc
+ * Text Domain:       ads-for-visual-composer
  * Domain Path:       /languages
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -52,8 +52,8 @@ class Advanced_Ads_Visual_Composer
 	}
 	
         vc_map( array(
-		"name" => __("Advanced Ads – Ad", 'advanced-ads-vc'),
-		"description" => __("Displays an Ad", 'advanced-ads-vc'),
+		"name" => __("Advanced Ads – Ad", 'ads-for-visual-composer'),
+		"description" => __("Displays an Ad", 'ads-for-visual-composer'),
 		"base" => "the_ad",
 		"icon" => plugins_url('assets/icon.png', __FILE__),
 		"category" => 'Ads',
@@ -62,16 +62,16 @@ class Advanced_Ads_Visual_Composer
 		"params" => array(
 		    array(
 			"type" => "textfield",
-			"heading" => __("Ad Id", 'advanced-ads-vc'),
+			"heading" => __("Ad Id", 'ads-for-visual-composer'),
 			"param_name" => "id",
-			"description" => __("Enter the ID of the ad.", 'advanced-ads-vc'),
+			"description" => __("Enter the ID of the ad.", 'ads-for-visual-composer'),
 		    )
 		)
 	    )
 	);
 	vc_map( array(
-		"name" => __("Advanced Ads – Group", 'advanced-ads-vc'),
-		"description" => __("Displays an Ad Group", 'advanced-ads-vc'),
+		"name" => __("Advanced Ads – Group", 'ads-for-visual-composer'),
+		"description" => __("Displays an Ad Group", 'ads-for-visual-composer'),
 		"base" => "the_ad_group",
 		"icon" => plugins_url('assets/icon.png', __FILE__),
 		"category" => 'Ads',
@@ -81,15 +81,15 @@ class Advanced_Ads_Visual_Composer
 		    array(
 			"type" => "textfield",
 			"holder" => "div",
-			"heading" => __("Ad Group Id", 'advanced-ads-vc'),
+			"heading" => __("Ad Group Id", 'ads-for-visual-composer'),
 			"param_name" => "id",
-			"description" => __("Enter the ad group ID.", 'advanced-ads-vc')                )
+			"description" => __("Enter the ad group ID.", 'ads-for-visual-composer')                )
 		)
 	    )
 	);
 	vc_map( array(
-		"name" => __("Advanced Ads – Placement", 'advanced-ads-vc'),
-		"description" => __("Displays an Ad Placement", 'advanced-ads-vc'),
+		"name" => __("Advanced Ads – Placement", 'ads-for-visual-composer'),
+		"description" => __("Displays an Ad Placement", 'ads-for-visual-composer'),
 		"base" => "the_ad_placement",
 		"icon" => plugins_url('assets/icon.png', __FILE__),
 		"category" => 'Ads',
@@ -99,9 +99,9 @@ class Advanced_Ads_Visual_Composer
 		    array(
 			"type" => "textfield",
 			"holder" => "div",
-			"heading" => __("Placement slug", 'advanced-ads-vc'),
+			"heading" => __("Placement slug", 'ads-for-visual-composer'),
 			"param_name" => "id",
-			"description" => __("Enter the slug from a Manual Placement.", 'advanced-ads-vc')                
+			"description" => __("Enter the slug from a Manual Placement.", 'ads-for-visual-composer')                
 		    )
 		)
 	    )
@@ -112,7 +112,7 @@ class Advanced_Ads_Visual_Composer
         $plugin_data = get_plugin_data(__FILE__);
         echo '
         <div class="error">
-          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="http://bit.ly/vcomposer" target="_blank">Visual Composer</a></strong> plugin to be installed and activated on your site.', 'advanced-ads-vc'), $plugin_data['Name']).'</p>
+          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="http://bit.ly/vcomposer" target="_blank">Visual Composer</a></strong> plugin to be installed and activated on your site.', 'ads-for-visual-composer'), $plugin_data['Name']).'</p>
         </div>';
     }
 
@@ -120,13 +120,13 @@ class Advanced_Ads_Visual_Composer
         $plugin_data = get_plugin_data(__FILE__);
 	$plugins = get_plugins();
 	if( isset( $plugins['advanced-ads/advanced-ads.php'] ) ){ // is installed, but not active
-	    $link = '<a class="button button-primary" href="' . wp_nonce_url( 'plugins.php?action=activate&amp;plugin=advanced-ads/advanced-ads.php&amp', 'activate-plugin_advanced-ads/advanced-ads.php' ) . '">'. __('Activate Now', 'advanced-ads-vc') .'</a>';
+	    $link = '<a class="button button-primary" href="' . wp_nonce_url( 'plugins.php?action=activate&amp;plugin=advanced-ads/advanced-ads.php&amp', 'activate-plugin_advanced-ads/advanced-ads.php' ) . '">'. __('Activate Now', 'ads-for-visual-composer') .'</a>';
 	} else {
-	    $link = '<a class="button button-primary" href="' . wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=' . 'advanced-ads'), 'install-plugin_' . 'advanced-ads') . '">'. __('Install Now', 'advanced-ads-vc') .'</a>';
+	    $link = '<a class="button button-primary" href="' . wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=' . 'advanced-ads'), 'install-plugin_' . 'advanced-ads') . '">'. __('Install Now', 'ads-for-visual-composer') .'</a>';
 	}
         echo '
         <div class="error">
-          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="https://wpadvancedads.com" target="_blank">Advanced Ads</a></strong> plugin to be installed and activated on your site.', 'advanced-ads-vc'), $plugin_data['Name']) .
+          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="https://wpadvancedads.com" target="_blank">Advanced Ads</a></strong> plugin to be installed and activated on your site.', 'ads-for-visual-composer'), $plugin_data['Name']) .
 	     '&nbsp;' . $link . '</p></div>';
     }
 }
