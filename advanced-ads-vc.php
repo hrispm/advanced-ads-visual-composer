@@ -3,7 +3,7 @@
  * Plugin Name:       Advanced Ads – Visual Composer
  * Plugin URI:        https://wpadvancedads.com
  * Description:       Display Advanced Ads as a Visual Composer Element
- * Version:           1.0
+ * Version:           1.0.3
  * Author:            Thomas Maier, Hans-Lukas Herse
  * Author URI:        http://webgilde.com
  * Text Domain:       ads-for-visual-composer
@@ -26,7 +26,8 @@ class Advanced_Ads_Visual_Composer
         add_action('init', array($this, 'check_dependencies'));
         // add_action('vc_before_init', array($this, 'add_arguments'));
         add_action('init', array($this, 'add_arguments'));
-
+		// load translations		
+		add_action('plugins_loaded', array($this, 'ads_for_visual_composer_load_plugin_textdomain'));
     }
    
     
@@ -129,5 +130,10 @@ class Advanced_Ads_Visual_Composer
           <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="https://wpadvancedads.com" target="_blank">Advanced Ads</a></strong> plugin to be installed and activated on your site.', 'ads-for-visual-composer'), $plugin_data['Name']) .
 	     '&nbsp;' . $link . '</p></div>';
     }
+
+	function ads_for_visual_composer_load_plugin_textdomain() {
+    	load_plugin_textdomain( 'ads-for-visual-composer', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+	}
+
 }
 new Advanced_Ads_Visual_Composer();
