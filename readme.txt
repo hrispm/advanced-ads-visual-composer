@@ -3,7 +3,7 @@ Contributors: webzunft
 Tags: ads, visual composer, frontend editor
 Requires at least: 4.5
 Tested up to: 4.8
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,14 @@ Placement: Create a _Manual_ placement. Open the list of placements and click on
 1. New Ad elements added to the Ad group in Visual Composer
 
 == Changelog ==
+
+= 1.0.3 =
+
+* made the plugin translation ready finally
+
+= 1.0.2 =
+
+* made the plugin translation ready
 
 = 1.0.1 =
 
