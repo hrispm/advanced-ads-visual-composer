@@ -1,30 +1,30 @@
-=== Visual Composer Ads ===
+=== Ads for WPBakery Page Builder (formerly Visual Composer) ===
 Contributors: webzunft
-Tags: ads, visual composer, frontend editor
+Tags: ads, visual composer, frontend editor, page builder, WPBakery
 Requires at least: 4.5
 Tested up to: 4.9
 Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Manage ads in your Visual Composer interface.
+Manage ads in your WPBakery Page Builder (formerly Visual Composer) interface.
 
 == Description ==
 
-This plugin combines the Visual Composer by WPBakery and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with VC.
+This plugin combines the Visual Composer by WPBakery and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with the Visual Composer by WPBakery. .
 
 **Ad Management Features**
 
 Advanced Ads is a powerful, but easy to use ad management plugin. Among the [many features](https://wpadvancedads.com/features/), you can:
 
-* manage various kinds of ads like AdSense, DFP, Amazon, and any other custom code
+* manage various kinds of ads like AdSense, DFP, Amazon, media.net and any other custom code
 * show ads for mobile/desktop users only
 * automatically inject ads into content, after specific paragraphs
 * use Pro visitor conditions like browser width, geo location, browser language and many more
 
 **Instructions**
 
-After activating this plugin, as well as Visual Composer and Advanced Ads, you should find three new Visual Composer elements in the editor:
+After activating this plugin, as well as WPBakery Page Builder (formerly Visual Composer) and Advanced Ads, you should find three new WPBakery Page Builder elements in the editor:
 
 * Advanced Ads – Ad
 * Advanced Ads – Group
