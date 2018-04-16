@@ -48,6 +48,10 @@ Placement: Create a _Manual_ placement. Open the list of placements and click on
 
 == Changelog ==
 
+= 1.0.4 =
+
+* updated reference to Visual Composer, now WPBakery Page Builder (formerly Visual Composer)
+
 = 1.0.3 =
 
 * made the plugin translation ready finally
