@@ -11,7 +11,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * 
- * based on Extend Visual Composer Plugin Example by WPBakery
+ * based on Extend WPBakery Page Builder Plugin (formerly Visual Composer)
 */
 
 if (!defined('ABSPATH')) {
@@ -33,7 +33,7 @@ class Advanced_Ads_Visual_Composer
     
     public function check_dependencies()
     {
-        // Check if Visual Composer is installed
+        // Check if WPBakery Page Builder is installed
         if (!defined('WPB_VC_VERSION')) {
             // Display notice that Visual Compser is required
             add_action('admin_notices', array($this, 'show_vc_version_notice'));
@@ -113,7 +113,7 @@ class Advanced_Ads_Visual_Composer
         $plugin_data = get_plugin_data(__FILE__);
         echo '
         <div class="error">
-          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="http://bit.ly/vcomposer" target="_blank">Visual Composer</a></strong> plugin to be installed and activated on your site.', 'ads-for-visual-composer'), $plugin_data['Name']).'</p>
+          <p>'.sprintf(__('<strong>%s</strong> requires the <strong><a href="http://bit.ly/vcomposer" target="_blank">WPBakery Page Builder</a></strong> plugin to be installed and activated on your site.', 'ads-for-visual-composer'), $plugin_data['Name']).'</p>
         </div>';
     }
 
