@@ -1,4 +1,4 @@
-=== Ads for WPBakery Page Builder (formerly Visual Composer) ===
+=== Advanced Ads for WPBakery Page Builder (formerly Visual Composer) ===
 Contributors: webzunft
 Tags: ads, visual composer, frontend editor, page builder, WPBakery
 Requires at least: 4.5
@@ -11,7 +11,11 @@ Manage ads in your WPBakery Page Builder (formerly Visual Composer) interface.
 
 == Description ==
 
-This plugin combines the Visual Composer by WPBakery and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with the Visual Composer by WPBakery. .
+This plugin combines the WPBakery Page Builder (formerly Visual Composer) and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with that page builder.
+
+Please notice that _WPBakery Page Builder_ is [this plugin on codecanyon](https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431), formerly called Visual Composer.
+
+The Visual Composer plugin as hosted [here](https://visualcomposer.io) is a different product from the same team. In order to use Advanced Ads with that website builder just use the shortcodes coming with Advanced Ads in their _Text Block_.
 
 **Ad Management Features**
 
