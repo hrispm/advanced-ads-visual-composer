@@ -21,7 +21,7 @@ The Visual Composer plugin as hosted [here](https://visualcomposer.io) is a diff
 
 Advanced Ads is a powerful, but easy to use ad management plugin. Among the [many features](https://wpadvancedads.com/features/), you can:
 
-* manage various kinds of ads like AdSense, DFP, Amazon, media.net and any other custom code
+* manage all kinds of ads like Google AdSense, DFP, Amazon, Taboola, Tradedoubler, and any other custom code
 * show ads for mobile/desktop users only
 * automatically inject ads into content, after specific paragraphs
 * use Pro visitor conditions like browser width, geo location, browser language and many more
