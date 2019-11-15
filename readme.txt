@@ -1,4 +1,4 @@
-=== Advanced Ads for WPBakery Page Builder (formerly Visual Composer) ===
+=== Advanced Ads for WPBakery Page Builder ===
 Contributors: webzunft
 Tags: ads, visual composer, frontend editor, page builder, WPBakery
 Requires at least: 4.5
@@ -11,30 +11,28 @@ Manage ads in your WPBakery Page Builder (formerly Visual Composer) interface.
 
 == Description ==
 
-This plugin combines the WPBakery Page Builder (formerly Visual Composer) and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with that page builder.
+This plugin combines the WPBakery Page Builder and the [Advanced Ads](https://wordpress.org/plugins/advanced-ads/) ad management plugin in order to integrate ads into websites built with that page builder.
 
 Please notice that _WPBakery Page Builder_ is [this plugin on codecanyon](https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431), formerly called Visual Composer.
-
-The Visual Composer plugin as hosted [here](https://visualcomposer.io) is a different product from the same team. In order to use Advanced Ads with that website builder just use the shortcodes coming with Advanced Ads in their _Text Block_.
 
 **Ad Management Features**
 
 Advanced Ads is a powerful, but easy to use ad management plugin. Among the [many features](https://wpadvancedads.com/features/), you can:
 
-* manage various kinds of ads like AdSense, DFP, Amazon, media.net and any other custom code
+* manage various kinds of ads like AdSense, DFP, Amazon, media.net, The Moneytizer and any other custom code
 * show ads for mobile/desktop users only
 * automatically inject ads into content, after specific paragraphs
 * use Pro visitor conditions like browser width, geo location, browser language and many more
 
 **Instructions**
 
-After activating this plugin, as well as WPBakery Page Builder (formerly Visual Composer) and Advanced Ads, you should find three new WPBakery Page Builder elements in the editor:
+After activating this plugin, as well as WPBakery Page Builder and Advanced Ads, you should find three new WPBakery Page Builder elements in the editor:
 
 * Advanced Ads – Ad
 * Advanced Ads – Group
 * Advanced Ads – Placement
 
-Each of them corresponds to the according element in Advanced Ads. You only need to enter the ids/slug of that element to show it in Visual Composer.
+Each of them corresponds to the according element in Advanced Ads. You only need to enter the ids/slug of that element to show it in your template.
 
 All elements are also grouped into the _Ads_ tab.
 
@@ -48,7 +46,7 @@ Placement: Create a _Manual_ placement. Open the list of placements and click on
 
 == Screenshots ==
 
-1. New Ad elements added to the Ad group in Visual Composer
+1. New Ad elements added to the Ad group in the WP Bakery Page Builder
 
 == Changelog ==
 
